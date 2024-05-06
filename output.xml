@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.0 on linux)" generated="2024-05-06T18:24:13.559154" rpa="false" schemaversion="5">
+<suite id="s1" name="Primeirotest" source="/home/juliofreitas/coleção/QA_estudos/robotframework/robotframework-study/Primeirotest.robot">
+<test id="s1-t1" name="teste1" line="6">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Hello word</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-05-06T18:24:13.757432" elapsed="0.006036"/>
+</kw>
+<status status="PASS" start="2024-05-06T18:24:13.750897" elapsed="0.016465"/>
+</test>
+<test id="s1-t2" name="teste2" line="9">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>seja bem vindo!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-05-06T18:24:13.775333" elapsed="0.003125"/>
+</kw>
+<kw name="KY - teste">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>palavra guardada</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-05-06T18:24:13.783929" elapsed="0.001666"/>
+</kw>
+<status status="PASS" start="2024-05-06T18:24:13.780935" elapsed="0.005859"/>
+</kw>
+<status status="PASS" start="2024-05-06T18:24:13.771449" elapsed="0.017598"/>
+</test>
+<status status="PASS" start="2024-05-06T18:24:13.577425" elapsed="0.219285"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Primeirotest">Primeirotest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
